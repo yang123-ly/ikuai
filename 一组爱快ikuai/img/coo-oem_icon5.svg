@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="62px" viewBox="0 0 54 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="4.11122323%" y1="51.3284095%" x2="95.8887768%" y2="51.3284095%" id="linearGradient-1">
+            <stop stop-color="#36ADFD" offset="0%"></stop>
+            <stop stop-color="#004CD4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图-copy" transform="translate(-1570.000000, -528.000000)">
+            <g id="Group-11" transform="translate(1571.000000, 529.000000)">
+                <g id="Group-3-Copy-2">
+                    <g id="Group-Copy-2" opacity="0.300000012" stroke="#327DF1" stroke-dasharray="2">
+                        <path d="M25.4444444,0.555555556 L25.4444444,21.6666667" id="Line-2" stroke-linecap="square"></path>
+                        <path d="M26,0 L51.9807621,15 L51.9807621,45 L26,60 L0.0192378865,45 L0.0192378865,15 L26,0 Z" id="Polygon-3"></path>
+                        <path d="M52.4059687,30 L26.4252066,45 L0.444444444,30" id="Polygon-3-Copy" transform="translate(26.425207, 37.500000) scale(1, -1) translate(-26.425207, -37.500000) "></path>
+                    </g>
+                    <g id="Group-4" transform="translate(15.000000, 18.000000)">
+                        <polygon id="Page-1" fill="url(#linearGradient-1)" points="17.675709 0.00077638546 10.3518061 7.31173947 10.3518061 1.69588464 0 1.69588464 0 12.0489847 10.3518061 12.0489847 10.3518061 7.31173947 17.675709 14.6356423 12.9397577 14.6356423 12.9397577 24.9874484 23.2915638 24.9874484 23.2915638 14.6356423 17.675709 14.6356423 24.9996118 7.31173947"></polygon>
+                        <polygon id="Path" fill="#59E6BD" points="0 24.9874484 10.3518061 24.9874484 10.3518061 14.6356423 0 14.6356423"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

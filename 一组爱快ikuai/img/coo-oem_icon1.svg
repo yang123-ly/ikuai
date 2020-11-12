@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="62px" viewBox="0 0 54 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="4.11122323%" y1="51.3284095%" x2="95.8887768%" y2="51.3284095%" id="linearGradient-1">
+            <stop stop-color="#36ADFD" offset="0%"></stop>
+            <stop stop-color="#004CD4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图-copy" transform="translate(-1246.000000, -528.000000)">
+            <g id="Group-7" transform="translate(1247.000000, 529.000000)">
+                <g id="Group">
+                    <path d="M25.4444444,0.555555556 L25.4444444,21.6666667" id="Line-2" stroke="#327DF1" opacity="0.300000012" stroke-linecap="square" stroke-dasharray="2"></path>
+                    <path d="M26,0 L51.9807621,15 L51.9807621,45 L26,60 L0.0192378865,45 L0.0192378865,15 L26,0 Z" id="Polygon-3" stroke="#327DF1" opacity="0.300000012" stroke-dasharray="2"></path>
+                    <path d="M52.4059687,30 L26.4252066,45 L0.444444444,30" id="Polygon-3-Copy" stroke="#327DF1" opacity="0.300000012" stroke-dasharray="2" transform="translate(26.425207, 37.500000) scale(1, -1) translate(-26.425207, -37.500000) "></path>
+                    <path d="M30.9605735,38.7407407 L35.0250896,38.7407407 C38.0179283,38.7407407 40.4444444,36.3730815 40.4444444,33.4518519 C40.4444444,30.8307667 38.6379928,28.6037037 35.9283154,28.6037037 C35.9283154,26.4 34.5734767,24.637037 31.8637993,24.637037 L31.4121864,24.637037 C30.1801864,22.4668296 27.8119283,21.1111111 25.0896057,21.1111111 C21.0991541,21.1111111 17.8637993,24.2685778 17.8637993,28.162963 C14.8709606,28.162963 12.4444444,30.531063 12.4444444,33.4518519 C12.4444444,36.3730815 14.8709606,38.7407407 17.8637993,38.7407407 L21.9283154,38.7407407 L30.9605735,38.7407407 Z" id="Stroke-1-Copy-2" fill="url(#linearGradient-1)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
