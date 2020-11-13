@@ -1,0 +1,207 @@
+.headerNav {
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+}
+
+span {
+    color: #969696;
+}
+
+.line {
+    background: #eeeeee;
+    height: 1px;
+}
+
+.firstTextNav {
+    color: #327DF1;
+    margin-left: 20px;
+}
+
+.search {
+    margin: 60px auto 8px auto;
+}
+
+.allSearch {
+    height: 50px;
+    line-height: 50px;
+    background: #F2F2F2;
+    border: none;
+}
+
+.searchBtn {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    width: 85px;
+    background: #327DF1;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #357EBD;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.changeSeekSpan {
+    color: #2C3D4F;
+}
+
+.seek {
+    margin-bottom: 36px;
+}
+
+.seek>a {
+    margin-right: 12px;
+}
+
+.bottomInfo {
+    border-top: 1px solid #eeeeee;
+}
+
+.leftNav,
+.rightTitle {
+    margin-top: 26px;
+    margin-bottom: 60px;
+}
+
+.leftNav>a {
+    display: block;
+    padding-left: 15px;
+    width: 190px;
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.activeOther {
+    color: #333333;
+}
+
+.activeOther:hover {
+    color: #333333;
+}
+
+.rightTitle {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.rightTitleMobile {
+    margin-bottom: 30px;
+}
+
+.chooseTop {
+    margin-top: 20px;
+    background: #e2e2e2;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 5px;
+}
+
+.chooseTop>a {
+    width: 100%;
+    font-size: 16px;
+    color: #666666;
+}
+
+.chooseTop>a>img {
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-top: 25px;
+}
+
+.chooseBottom {
+    height: 250px;
+    background: #f2f2f2;
+}
+
+.chooseBottom>a {
+    display: block;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+}
+
+.hiddenMod {
+    display: none;
+}
+
+.iKuaiVideo {
+    position: relative;
+    width: 31%;
+    margin: 0px 1% 20px 1%;
+    float: left;
+    height: 180px;
+}
+
+.iKuaiVideoBg {
+    background: url(../img/vido_logo.png) no-repeat #E9E9E9;
+    transition: background 0.15s;
+    background-position: center center;
+    border-radius: 1px;
+    height: 150px;
+    border-radius: 1px;
+}
+
+.iKuaiVideoBg:hover {
+    background: url(../img/play.png) no-repeat #E9E9E9;
+    background-position: center center;
+}
+
+.iKuaiVideo>p>a {
+    display: block;
+    color: #333333;
+    margin-top: 15px;
+}
+
+
+@media (max-width:768px) {
+
+    .searchBtn {
+        display: inline-block;
+        height: 48px;
+        line-height: 48px;
+        width: 65px;
+        background: #327DF1;
+        color: #fff;
+        text-align: center;
+        border: 1px solid #357EBD;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .bottomInfo {
+        border: none;
+    }
+
+    .rightTitle {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .search {
+        margin: 20px auto 8px auto;
+    }
+
+    .iKuaiVideo {
+        position: relative;
+        width: 100%;
+        margin: 20px auto;
+        height: 180px;
+    }
+
+    .iKuaiVideoBg {
+        background: url(../img/vido_logo.png) no-repeat #E9E9E9;
+        transition: background 0.15s;
+        background-position: center center;
+        border-radius: 1px;
+        height: 150px;
+        border-radius: 1px;
+    }
+
+
+}
