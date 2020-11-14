@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="111px" height="125px" viewBox="0 0 111 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图-copy" transform="translate(-20.000000, -20.000000)">
+            <g id="Group-4" transform="translate(20.000000, 20.000000)">
+                <path d="M60.4976174,1.33837078 L105.997617,27.5911215 C109.092971,29.3770895 111,32.679112 111,36.2527507 L111,88.7472493 C111,92.320888 109.092971,95.6229105 105.997617,97.4088785 L60.4976174,123.661629 C57.4048179,125.446124 53.5951821,125.446124 50.5023826,123.661629 L5.00238259,97.4088785 C1.90702923,95.6229105 3.90798505e-14,92.320888 3.90798505e-14,88.7472493 L7.10542736e-15,36.2527507 C3.55271368e-15,32.679112 1.90702923,29.3770895 5.00238259,27.5911215 L50.5023826,1.33837078 C53.5951821,-0.446123632 57.4048179,-0.446123632 60.4976174,1.33837078 Z" id="Polygon-Copy" fill="#46BBC6"></path>
+                <text id="1" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="48" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="41.2382812" y="80">1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
