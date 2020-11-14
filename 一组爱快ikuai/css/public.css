@@ -36,8 +36,8 @@ body{ min-width: 1200px\9;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{ background-color: inherit; color:#327DF1;}
 #menu_show >ul>li>.no_childs{ font-weight: normal;}
 .install_url a{ color: #327DF1;}
-.go_up{ background: url("../../img/go_up.png") no-repeat; width: 58px; height: 58px; display: block;}
-.go_up_h{ background: url("../../img/go_up_h.png") no-repeat; width: 58px; height: 58px; display: block;transition: background 1s;}
+.go_up{ background: url("../img/go_up.png") no-repeat; width: 58px; height: 58px; display: block;}
+.go_up_h{ background: url("../img/go_up_h.png") no-repeat; width: 58px; height: 58px; display: block;transition: background 1s;}
 #menu_show .nav-child li.current a{ color:#327DF1 }
 .head_top .active > .menu_level{ color:#327DF1!important; }
 .head_top .navbar-nav > li > a::before {
@@ -79,7 +79,7 @@ body{ min-width: 1200px\9;}
     .navbar-nav > li > a { padding-top: 20px;padding-bottom: 20px;}
     .navbar-nav > li > a:hover{border-bottom: 2px solid  #327DF1;padding-bottom: 18px;}
     .navbar-nav > li >.en:hover,.navbar-nav > li >.ch:hover{ border-bottom: 0;padding-bottom: 20px; color: #327DF1!important;}
-    .nav > li > a.en{ padding-right: 10px; background: url("../../img/slash.png") no-repeat right center;}
+    .nav > li > a.en{ padding-right: 10px; background: url("../img/slash.png") no-repeat right center;}
     .nav > li > a.ch{ padding-left: 3px;}
     .navbar-nav > li.btn_navs a:hover{ font-weight: normal;}
     #menu_show .nav-child .menu_1 a{ font-weight: normal;}
@@ -101,12 +101,12 @@ body{ min-width: 1200px\9;}
     .nav-child li .nav-child{ padding:6px 0 0 15px;}
     .nav-child li .nav-child a{ color: #999999;}
     .nav-child li{ position: relative;}
-    .navbar-nav em{ position: absolute;right: 20px;top:15px;width: 16px; height: 16px; display: inline-block; background: url("../../img/creat_close.png") no-repeat; }
-    .navbar-nav .opens >a > em{ background:url("../../img/creats.png") no-repeat; }
+    .navbar-nav em{ position: absolute;right: 20px;top:15px;width: 16px; height: 16px; display: inline-block; background: url("../images/creat_close.png") no-repeat; }
+    .navbar-nav .opens >a > em{ background:url("../img/creats.png") no-repeat; }
     .head_top .nav-child{ display: none;}
     .head_top .nav>li>a:hover, .head_top .nav>li>a:focus{ color:#666666 }
-    .menu_3 > a,.menu_2 >a{ background: url("../../img/creat_close.png") no-repeat 96% center;display: block;}
-    .opens > a{ background:url("../../img/creats.png") no-repeat 96% center;}
+    .menu_3 > a,.menu_2 >a{ background: url("../img/creat_close.png") no-repeat 96% center;display: block;}
+    .opens > a{ background:url("../img/creats.png") no-repeat 96% center;}
     .head_top .navbar-nav > li > .menu_level:hover::before{ width: 0;}
 }
 
