@@ -1,0 +1,286 @@
+
+.home_lay{
+    background:#f2f2f2;
+    padding-top:20px;
+}
+.home-banner .container{
+    overflow: hidden;
+    max-height: 500px;
+}
+.carousel-indicators li,.carousel-indicators .active{
+    width: 30px;
+    height: 5px;
+}
+.show_word{
+    margin-top:20px;
+}
+.show_list1,.show_list2,.show_list3,.show_list4{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.show_list1{
+    color:#2c3d4f;
+}
+.show_h{
+    font-size:28px;
+}
+.show_txts{
+    max-width:990px;
+    margin:0 auto;
+    font-size:14px;
+    line-height: 1.6;
+}
+.show_hardware{
+    max-width: 990px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.show_hardware > div {
+    width: 25%;
+    margin-bottom: 10px;
+}
+.show_hardware a {
+    display: block;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    color: #2C3D4F;
+    margin: 0 10px;
+    border: 1px solid #E4E4E4;
+    border-radius: 3px;
+    transition: all 0.4s ease 0s;
+    overflow: hidden;
+}
+.show_hardware a:hover {
+    background-color: #00bbd3;
+    border: 1px solid #00bbd3;
+}
+.show_hardware a:hover {
+    color: #fff;
+    -moz-box-shadow: 0 5px 20px #999;
+    -webkit-box-shadow: 0 5px 20px #999;
+    box-shadow: 0 5px 20px #999;
+}
+.show_hardware a:hover .img_route {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    transition: transform .25s linear;
+}
+.hardware_name {
+    font-size: 14px;
+}
+.hardware_describe {
+    font-size: 12px;
+    max-width: 250px;
+    margin: 8px auto 0 auto;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.img_route{
+    margin:0 auto 20px auto;
+    width: 80%;
+    max-width: 89px;
+    height: 89px;
+}
+.ik_gateway .img_route{
+    background: url(../img/show_hardware_1.png)no-repeat;
+}
+.ik_gateway a:hover .img_route {
+    background: url(../img/show_hardware_1_h.png) no-repeat;
+}
+.ik_route .img_route{
+    background: url(../img/show_hardware_2.png)no-repeat;
+}
+.ik_route a:hover .img_route {
+    background: url(../img/show_hardware_2_h.png) no-repeat;
+}
+.ik_swith .img_route{
+    background: url(../img/show_hardware_3.png)no-repeat;
+}
+.ik_swith a:hover .img_route {
+    background: url(../img/show_hardware_3_h.png) no-repeat;
+}
+.ik_ap .img_route{
+    background: url(../img/show_hardware_4.png)no-repeat;
+}
+.ik_ap a:hover .img_route {
+    background: url(../img/show_hardware_4_h.png) no-repeat;
+}
+.show_software{
+    padding:0 15px;
+}
+.software_txt >a, .software_txt >a:hover, .software_txt >a:focus {
+    color: #fff;
+    display: block;
+}
+.route_show {
+    background: #02A8F3;
+}
+.show_head {
+    font-size: 28px;
+    margin-top: 20px;
+}
+.show_title{
+    font-size:16px;
+    margin:15px auto 35px auto;
+}
+.h10{
+    height: 10px;
+    margin:0;
+}
+.software_txt{
+    color:#f00;
+    margin:30px 15px 0 25px;
+    font-size:12px;
+    text-align: left;
+    line-height: 1.7;
+}
+.software_h{
+    font-size:28px;
+    color:#fff;
+    margin-bottom:8px;
+
+}
+.btn_go .btn{
+    border:1px solid #fff;
+    font-size:18px;
+    padding:10px 32px;
+    color:#fff;
+    border-radius:2px;
+    margin-top:25px;
+}
+.route_show .col-md-5, .yun_show .col-md-5 {
+    background: #fff;
+}
+.system_img{
+    min-height: 300px;
+    margin-left:-15px;
+    margin-right: -15px;
+    position: relative;
+    box-shadow: 0 -10px 20px -10px #999 inset;
+}
+.system_img img{
+    position: absolute;
+    bottom:-38px;
+    left:0;
+    right: 0;
+    margin:0 auto;
+    max-height: 320px;
+}
+.yun_show {
+    background: #2095F2;
+}
+.case_list {
+    display: block;
+}
+.case_img{
+    overflow: hidden;
+    max-height: 245px;
+}
+.case_list:hover .case_img img{
+    transform: scale(1.05);
+}
+.case_list img{
+    width: 100%;
+    transition: transform 0.3s;
+}
+.case_name {
+    background: #3097CC;
+    color: #fff;
+    font-size: 18px;
+    padding: 18px 25px 18px 25px;
+}
+.case_txt{
+    color:#939ba4;
+    font-size:12px;
+    padding:15px 30px 15px 30px;
+    background: #f2f2f2;
+    text-align: left;
+    min-height: 80px;
+    line-height: 180%;
+}
+.show_list3, .show_list4 {
+    background-color: #fff;
+}
+.partner_li{
+    float: left;
+    display: table;
+    width: 25%;
+    border-spacing: 10px 12px;
+}
+.partner_li>div{
+    background: #fbfbfb;
+    text-align: center;
+    height: 90px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 0px){
+    .show_hardware {
+        margin-top: 0;
+    }
+    .show_hardware > div {
+        width: 50%;
+    }
+    .show_hardware a {
+        display: block;
+        min-height: 250px;
+    }
+    .hardware_name {
+        font-size: 18px;
+    }
+    .hardware_describe {
+        margin: 8px auto 0 auto;
+        padding: 0 15px;
+    }
+    .show_hardware a {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    .show_h, .shade_list, .show_txts, .show_title {
+        display: none;
+    }
+    .show_head {
+        margin: 30px auto 25px auto;
+    }
+    .btn_go {
+        text-align: center;
+    }
+    .btn_go .btn {
+        padding: 8px 26px;
+        font-size: 16px;
+    }
+    .btn_go .btn {
+        margin: 10px auto 0 auto;
+    }
+    .route_show .col-md-5 {
+        background: #46BBC6;
+    }
+    .system_img {
+        min-height: auto;
+    }
+    .system_img img {
+        position: relative;
+        width: 80%;
+    }
+    .software_h {
+        font-size: 20px;
+    }
+    .partner_li {
+        width: 50%;
+    }
+    .partner_li > div {
+        min-height: 70px;
+    }
+    .partner_li img {
+        max-width: 100px;
+    }   
+}

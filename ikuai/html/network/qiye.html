@@ -1,0 +1,597 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-11-12 14:28:36
+ * @LastEditTime: 2020-11-14 16:40:41
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \jsd:\site\web61\项目作业\一组爱快ikuai\一组爱快ikuai\html\network\network.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业协同办公-爱快 iKuai-商业场景网络解决方案提供商</title>
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="css/qiye.css">
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/public.js"></script>
+    <script src="js/onoff.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/close.js"></script>
+</head>
+<body>
+    <!-- 公共部分头部header导航栏 -->
+    <div class="navbar head_lay">
+        <div class="head_top">
+            <div class="container">
+                <div class="navbar-header">
+                        <a href="../../index.html" class="navbar-brand">
+                            <img src="../../img/logo1.png" alt="">
+                        </a>
+                </div>
+                <div id="bs-navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <!-- 前四个模块 -->
+                    <ul class="nav menu navbar-nav mod-list">
+                        <li class="item-102 deeper parent active">
+                            <a href="#" class="menu_level">产品</a>
+                            <ul class="nav-child unstyled small">
+                                <li class="item-125 deeper parent">
+                                    <a href="#">硬件产品</a>
+                                <ul class="nav-child unstyled small">
+                                        <li class="item-455">
+                                            <a href="./switch.html">交换机</a>
+                                        </li>
+                                        <li class="item-164">
+                                            <a href="./gateway.html">网关</a>
+                                        </li>
+                                        <li class="item-165">
+                                            <a href="./gateway.html">路由</a>
+                                        </li>
+                                        <li class="item-167">
+                                            <a href="#">室内AP</a>
+                                        </li>
+                                        <li class="item-406">
+                                            <a href="#">室外AP</a>
+                                        </li>
+                                        <li class="item-407">
+                                            <a href="#">网桥</a>
+                                        </li>
+                                        <li class="item-461">
+                                            <a href="#">其他</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-126 deeper parent">
+                                    <a href="#">软件产品</a>
+                                    <ul class="nav-child unstyled small">
+                                        <li class="item-128">
+                                            <a href="/product/rjcp/routersystem.html">路由系统</a>
+                                        </li>
+                                        <li class="item-129">
+                                            <a href="/component/download">固件下载</a>
+                                        </li>
+                                        <li class="item-483">
+                                            <a href="http://ikuai9.com:555" target="_blank" rel="noopener noreferrer">历史版本</a>
+                                        </li>
+                                        <li class="item-127">
+                                            <a href="#">爱快云</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-103 deeper parent">
+                            <a href="#" class="menu_level">服务</a>
+                            <ul class="nav-child unstyled small">
+                                <li class="item-114">
+                                    <a href="../service/service.html" class="no_childs">组网解决方案</a>
+                                </li>
+                                <li class="item-130">
+                                    <a href="../service/service2.html
+                                    " class="no_childs">有余增值服务</a>
+                                </li>
+                                <li class="item-131">
+                                    <a href="../service/service3.html" class="no_childs">售后维修服务</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-494 deeper parent">
+                            <a href="#" class="menu_level">组网</a>
+                            <ul class="nav-child unstyled small">
+                                <li class="item-495">
+                                    <a href="./yuancheng.html" class="no_childs">远程视频监控</a>
+                                </li>
+                                <li class="item-496">
+                                    <a href="#" class="no_childs">企业协同办公</a>
+                                </li>
+                                <li class="item-497">
+                                    <a href="./liansuo.html" class="no_childs">连锁领域</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-106 deeper parent">
+                            <a href="#" class="menu_level">合作</a>
+                            <ul class="nav-child unstyled small">
+                                <li class="item-132">
+                                    <a href="../contact-us/oem.html" class="no_childs">OEM合作</a>
+                                </li>
+                                <li class="item-133">
+                                    <a href="../contact-us/join.html" class="no_childs">加盟合作</a>
+                                </li>
+                                <li class="item-134">
+                                    <a href="../contact-us/channel.html" class="no_childs">渠道联系</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--后四个模块 -->
+                    <ul class="nav menu navbar-nav navbar-right mod-list">
+                        <li class="item-135 deeper parent">
+                            <a href="#" class="menu_level">支持</a>
+                            <ul class="nav-child unstyled small">
+                                <li class="item-140 deeper parent">
+                                    <a href="#">快速安装</a>
+                                    <ul class="nav-child unstyled small">
+                                        <li class="item-141">
+                                            <a href="../Install/Zsj.html">真实机</a>
+                                        </li>
+                                        <li class="item-143">
+                                            <a href="#">硬件使用手册</a>
+                                        </li>
+                                        <li class="item-144">
+                                            <a href="#">硬件参数</a>
+                                        </li>
+                                        <li class="item-142">
+                                            <a href="#" class=" no-child">虚拟机</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-145 deeper parent">
+                                    <a href="#">常见问题</a>
+                                    <ul class="nav-child unstyled small">
+                                        <li class="item-146">
+                                            <a href="../Install/Ap.html">AP类</a>
+                                        </li>
+                                        <li class="item-148">
+                                            <a href="#">交换机类</a>
+                                        </li>
+                                        <li class="item-149">
+                                            <a href="#">新手类</a>
+                                        </li>
+                                        <li class="item-150">
+                                            <a href="#">云平台类</a>
+                                        </li>
+                                        <li class="item-151">
+                                            <a href="#">基础配置类</a>
+                                        </li>
+                                        <li class="item-152">
+                                            <a href="#">多线环境类</a>
+                                        </li>
+                                        <li class="item-153">
+                                            <a href="#">功能配合类</a>
+                                        </li>
+                                        <li class="item-417">
+                                            <a href="#">网桥相关</a>
+                                        </li>
+                                        <li class="item-154">
+                                            <a href="#">认证类</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-155 deeper parent">
+                                    <a href="#">视频教程</a>
+                                    <ul class="nav-child unstyled small">
+                                        <li class="item-156">
+                                            <a href="../Install/Jcaz.html">基础安装</a>
+                                        </li>
+                                        <li class="item-157">
+                                            <a href="#">认证相关</a>
+                                        </li>
+                                        <li class="item-159">
+                                            <a href="#">视频直播回放</a>
+                                        </li>
+                                        <li class="item-206">
+                                            <a href="#">AP及网桥硬件部署</a>
+                                        </li>
+                                        <li class="item-158">
+                                            <a href="#">路由功能及环境案例</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-160 deeper parent">
+                                    <a href="#">页面功能讲解</a>
+                                    <ul class="nav-child unstyled small">
+                                        <li class="item-161 parent">
+                                            <a href="#">路由页面</a>
+                                        </li>
+                                        <li class="item-162 parent">
+                                            <a href="#">云平台页面</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-163 deeper parent">
+                                    <a href="#">案例中心</a>
+                                    <ul class="nav-child unstyled small">
+                                        <li class="item-207">
+                                            <a href="#">IPSEC VPN对接</a>
+                                        </li>
+                                        <li class="item-208">
+                                            <a href="#">实用环境配置讲解</a>
+                                        </li>
+                                        <li class="item-209">
+                                            <a href="#">特殊功能应用</a>
+                                        </li>
+                                        <li class="item-210">
+                                            <a href="#">网络卡顿问题处理方法</a>
+                                        </li>
+                                        <li class="item-211">
+                                            <a href="#">无线科普</a>
+                                        </li>
+                                        <li class="item-212">
+                                            <a href="#">其他案例</a>
+                                        </li>
+                                        <li class="item-414">
+                                            <a href="#">钉钉相关</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-136">
+                            <a href="https://en.ikuai8.com/ENindex.php" class="en">EN</a>
+                        </li>
+                        <li class="item-137">
+                            <a href="#" class="ch">中文</a>
+                        </li>
+                        <li class="item-138">
+                            <a href="http://yun.ikuai8.com" class="btn_navs" target="_blank" rel="noopener noreferrer">爱快云</a>
+                        </li>
+                        <li class="item-139"><a href="http://bbs.ikuai8.com" class="btn_navs" target="_blank" rel="noopener noreferrer">论坛</a></li>
+                    </ul>
+ 
+                </div>
+            </div>
+        </div>
+        <div class="menu_show">
+            <div class="container" id="menu_show" style="display: none;">
+                <ul class="nav-child unstyled small">
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="h60"></div>
+    <!-- 导航栏结束 -->
+     <!-- 在线咨询 start-->
+     <div class="oct">
+        <div class="oct_header">
+            <img src="img/iconWord2.png" alt="">
+        </div>
+        <div class="oct_mian">
+            <p><i class="ly_open">无线工程师01</i></p>
+            <p><i class="ly_open">无线工程师02</i></p>
+        </div>
+    </div>
+    <!-- 在线咨询 end -->
+    <!-- 中间弹窗 setInveral触发 start-->
+    <div class="mid_msg">
+        <i id="msg_close"></i>
+        <div class="mid_msg_top">
+            <p>输入您的具体需求，获取详细解决方案</p>
+        </div>
+        <div class="mid_msg_down">
+            <input type="text" name="msg" placeholder="您可以直接在这里和我们联系">
+            <button id="msg_send">发送</button>
+        </div>
+    </div>
+     <!-- 中间弹窗 end-->
+     <!-- 右下角留言 start -->
+    <div id="ly" style=" right: 0px; bottom: 0px;">
+        <div class="ly_header">在线咨询
+            <i id="ly_close" style=" background: url(img/ly_close.png)center center no-repeat;"></i>
+        </div>
+        <div class="ly_msg">
+            <div id="zhuangtai"><p>连接状态：</p></div>
+            <div id="ly_msg_main">
+                <div><span class="npc1">爱快工程师01</span><span class="time">2020-11-13</span>
+                    <p id="reply_msg">服务器回复信息....</p>
+                </div>
+            </div>
+            <div id="ly_input"><input type="text"></div>
+            <div id="ly_emoji">
+                <ul>
+                    <li class="li"></li>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                </ul>
+                <button id="ly_send">发送</button>
+            </div>
+        </div>
+    </div>
+     <!-- 右下角留言 end -->
+    <!-- content start -->
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="install_type plan_detail">
+                <div class="item-page" itemscope itemtype="https://schema.org/Article">
+                    <meta itemprop="inLanguage" content="zh-CN" />
+                    <div itemprop="articleBody">                
+                        <body>
+                            <div class="head_banner clearfix">
+                                <div class="tc banner_txt">
+                                    <div class="banner_txt1">企业协同办公组网解决方案</div>
+                                    <div class="banner_txt2">
+                                        随着信息技术的不断发展，企业内部分支机构和总部之间、分支机构之间的业务交互需求日益激增，业务逻辑日趋复杂，作为新一代VPN技术，爱快SD-WAN为企业组网带来了更优质、便捷、完善的解决方案
+                                    </div>
+                                    <a href="javascript:void(0);" class="contact_us" onclick="contact_us()">联系我们</a>
+                                </div>
+                            </div>
+                            <div class="plan_way clearfix">
+                                <div class="contents">
+                                    <div class="title_txt tc">痛点分析</div>
+                                    <div class="tc progresss"><img src="
+                                        img/progress.png" /></div>
+                                    <div class="use_type clearfix">
+                                        <div>
+                                            <img src="img/qiye/icond1.png" />
+                                            <div class="txt1">跨区域协同办公难
+                                                </div>
+                                            <div class="txt2">
+                                                总部与分公司间网络不互通，无法实现办公系统互访，信息传达慢，数据不同步，不便于总部与各分支的业务沟通</div>
+                                        </div>
+                                        <div>
+                                            <img src="img/qiye/icond2.png" />
+                                            <div class="txt1">远程办公不稳定</div>
+                                            <div class="txt2">
+                                                身处不同地域、不同网络环境的员工无法高质量接入公司网络，员工使用意愿不强烈，办公效率低</div>
+                                        </div>
+                                        <div>
+                                            <img src="img/qiye/icond3.png" />
+                                            <div class="txt1">公网传输不安全</div>
+                                            <div class="txt2">
+                                                公司内部资料和数据不允许外传，公网访问与传输无安全保障</div>
+                                        </div>
+                                        <div>
+                                            <img src="img/qiye/icond4.png" />
+                                            <div class="txt1">专线造价昂贵</div>
+                                            <div class="txt2">
+                                                总部与分公司之间的企业内网业务交互，均采用传统专线互连，带宽低，成本高，大流量并发使用效果差</div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="solution_show">
+                                <div class="contents">
+                                    <div class="title_txt tc">解决方案</div>
+                                    <div class="tc title_txt_a"><a
+                                            href="https://www.ikuai8.com/jszc/2020-09-01-06-57-09.html"
+                                            target="_blank">点击了解详情方案>>></a></div>
+                                    <div class="tc progresss"><img src="img/progress.png" /></div>
+                                    <div class="tc img_route"><img src="img/qiye/office_solution.png" /></div>
+                                    <div class="solution_li">
+                                        <div class="solution_head">方案特点：</div>
+                                        <ul>
+                                            <li>协同办公：实现OA、ERP等办公软件的远程访问，助力各部门灵活管理，高效协作；</li>
+                                            <li>
+                                            · 文件共享：远程访问公司SVN、NAS，随时获取文件；</li>
+                                            <li>· 极致安全：虚拟IP组网，网络安全隔离，数据加密传输，保障公司隐私；</li>
+                                            <li> · 极速体验：分钟级部署，即插即用，拥有更流畅、稳定的传输体验；</li>
+                                            <li>· 移动办公：打破地域限制，员工在家也可以随时访问公司内网文件和系统。</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project_value">
+                                <div class="contents">
+                                    <div class="title_txt tc">方案价值</div>
+                                    <div class="tc progresss"><img src="img/progress.png" /></div>
+                                    <div class="use_type clearfix">
+                                        <div>
+                                            <img src="img/qiye/firm_val1.png" />
+                                            <div class="txt1">企业内互联高效有序</div>
+                                            <div class="txt2">
+                                                总公司与各分支网络的互联互通，让企业各地区的管理更加灵活，办公协作更加高效，业务运行更加流畅</div>
+                                        </div>
+                                        <div>
+                                            <img src="img/qiye/firm_val2.png" />
+                                            <div class="txt1">员工远程办公无障碍</div>
+                                            <div class="txt2">无论在家、还是出差在外，员工随时访问公司内网，获取文件，如在企业办公一般，能够高效快速完成工作任务</div>
+                                        </div>
+                                        <div>
+                                            <img src="img/qiye/firm_val3.png" />
+                                            <div class="txt1">减轻企业组网负担
+                                                </div>
+                                            <div class="txt2">
+                                                部署简单，设置简单，即插即用，云端管理与维护，爱快SD-WAN全面减轻企业组网负担，降低企业组网成本</div>
+                                        </div>
+                                        <div>
+                                            <img src="img/qiye/firm_val4.png" />
+                                            <div class="txt1">企业信息传输安全无忧</div>
+                                            <div class="txt2">
+                                                更多样的组网安全防护机制，为公司文件和数据传输全面保驾护航</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="compare_to">
+                                <div class="contents">
+                                    <div class="title_txt tc">优势对比</div>
+                                    <div class="tc progresss"><img src="img/progress.png" /></div>
+                                    <div class="compare_show">
+                                        <div class="compare_l">
+                                            <div class="compare_tit">爱快SD-WAN</div>
+                                            <ul>
+                                                <li>无需专门服务器，任意型号路由器即可</li>
+                                                <li>无需公网IP，接入网络即可</li>
+                                                <li>多重封装技术，抗干扰能力更好</li>
+                                                <li>云端设置，全网1分钟极速自动开通</li>
+                                                <li>流量可视化，链路状态，实时监控显示</li>
+                                                <li>智能分流，网段映射,灵活运用</li>
+                                                <li>订阅式按需投入</li>
+                                                <li><img src="img/level.png" /></li>
+                                            </ul>
+                                        </div>
+                                        <div class="compare_m">
+                                            <div class="compare_tit">vs</div>
+                                            <ul>
+                                                <li>简易程度</li>
+                                                <li>网络兼容性</li>
+                                                <li>场景局限性</li>
+                                                <li>扩展性程度</li>
+                                                <li>可靠性</li>
+                                                <li>灵活度</li>
+                                                <li>性价比</li>
+                                            </ul>
+                                        </div>
+                                        <div class="compare_r">
+                                            <div class="compare_tit">传统VPN</div>
+                                            <ul>
+                                                <li>需要专用VPN线路及服务器</li>
+                                                <li>VPN服务器专线、公网IP成本高</li>
+                                                <li>可能面临部分运营商对VPN协议的干扰</li>
+                                                <li>所有节点需要逐个设置，无法统一维护</li>
+                                                <li>出现异常排查困难，影响业务运行</li>
+                                                <li>静态路由,网段冲突,规划复杂</li>
+                                                <li>维护成本持续投入</li>
+                                                <li><img src="img/level_l.png" /></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="foot_bg">
+                                <a href="javascript:void(0);" onclick="contact_us()">详情咨询</a>
+                            </div>
+                        </body>
+                        <script>
+                            var _hmt = _hmt || [];
+                            (function () {
+                                var hm = document.createElement("script");
+                                hm.src = "https://hm.baidu.com/hm.js?4ea8a9814aa766ed89ff1a673935e59a";
+                                var s = document.getElementsByTagName("script")[0];
+                                s.parentNode.insertBefore(hm, s);
+                            })();
+
+
+                        </script>
+                        <script>
+                            function contact_us() {
+                                document.getElementsByClassName("nb-group-text")[0].click();
+                            }
+
+
+                        </script>
+                    </div>
+
+
+                </div>
+
+                <div id="system-message-container">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- content end -->
+    <!-- footer信息 -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="foot_li col-xs-12 col-md-6">
+                    <ul class="nav menu mod-list">
+                        <li class="item-168 divider deeper parent">
+                            <span class="separator ">产品服务</span>
+                            <ul class="nav-child unstyled small">
+                                <li class="item-172">
+                                    <a href="https://www.ikuai8.com/jhjyj.html">爱快硬件</a>
+                                </li>
+                                <li class="item-173">
+                                    <a href="/product/rjcp/routersystem.html">路由系统</a>
+                                </li>
+                                <li class="item-174">
+                                    <a href="/product/rjcp/ikuaicloud.html">爱快云</a>
+                                </li>
+                                <li class="item-175">
+                                    <a href="/news/youyu.html">爱快有余</a>
+                                </li>
+                                <li class="item-176">
+                                    <a href="/news/after-sales-service.html">售后服务</a>
+                                </li>
+                                <li class="item-177">
+                                    <a href="/component/download">软件下载</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-169 divider deeper parent">
+                            <span class="separator ">技术支持</span>
+                            <ul class="nav-child unstyled small">
+                                <li class="item-180"><a href="/zhic/install/zsj.html">快速安装</a></li><li class="item-178"><a href="/zhic/cjwt/ap.html">常见问题</a></li><li class="item-181"><a href="/zhic/spjc/jcaz.html">视频教程</a></li><li class="item-179"><a href="/zhic/ymgn/lyym/xtgk.html">功能讲解</a></li><li class="item-182"><a href="/zhic/alzx/ipsec-vpn.html">案例中心</a></li><li class="item-493"><a href="/jszc/2020-09-01-06-57-09.html">组网文章</a></li>
+                            </ul>
+                        </li>
+                        <li class="item-170 divider deeper parent">
+                            <span class="separator ">合作方案</span>        
+                            <ul class="nav-child unstyled small">  
+                                <li class="item-183"><a href="/contact-us/channel.html">渠道联系</a></li><li class="item-184"><a href="/contact-us/oem.html">OEM定制</a></li><li class="item-185"><a href="/contact-us/join.html">加盟合作</a></li><li class="item-186"><a href="https://open.ikuai8.com/">开放平台</a></li><li class="item-187"><a href="/news/network.html">解决方案</a></li><li class="item-188"><a href="/qbal.html">成功案例</a></li>
+                            </ul>
+                        </li>
+                        <li class="item-171 divider deeper parent">
+                            <span class="separator ">关于我们</span>
+                        <ul class="nav-child unstyled small">
+                            <li class="item-189">
+                                <a href="/gywm/gsjj.html">公司简介</a>
+                            </li>
+                            <li class="item-190">
+                                <a href="/gywm/gsdt.html">公司动态</a></li><li class="item-191"><a href="/gywm/lxwm.html">联系我们</a></li><li class="item-415"><a href="/gywm/wbwz.html">外部文章</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="clearfix text-right footer-servies">
+
+                        <div class="contact_info text-left">
+                            <div class="label_contact">技术支持电话</div>
+                            <div class="num_contact">400-877-3227</div>
+                            <div class="label_contact">企业QQ：4008773227</div>
+                            <div class="label_contact">QQ交流群：948707047</div>
+                            <div class="label_contact">周一至周五9:00-19:30</div>
+                        </div>
+                        <div class="contact_info">
+                            <img src="../../img/wechat_code.png">
+                            <div class="text-center">爱快官方微信</div>
+                        </div>
+                        <div class="contact_info">
+                            <img src="../../img/apps.png">
+                            <div class="text-center"><img src="../../img/android.png">爱快官方APP</div>
+                        </div>
+                    </div>
+                    <div class="company_adress">
+                        <img src="../../img/location.png"><span>北京市丰台区南四环西路186号汉威国际广场三区5号楼502</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyrights clearfix">
+                <div class="col-xs-12 col-md-2">
+                    <img src="../../img/logo_bottom.png" alt="">
+                </div>
+                <div class="col-xs-12 col-md-6 text-right">Copyright © 2012 - 2020 iKuai. All Rights Reserved. 京ICP备13042604号 </div>
+                <div class="col-xs-12 col-md-4 company_own">版权所有 全讯汇聚网络科技（北京）有限公司</div>
+            </div>
+        </div>
+    </div>
+    <!-- footer结束 -->
+    <!-- 返回头部 -->
+    <div id="topcontrol" title="返回顶部" style="position: fixed; bottom: 100px; right: 20px; opacity: 1; cursor: pointer;"><div class="go_up"></div></div>
+    <!-- 返回头部结束 -->
+</body>
+</html>

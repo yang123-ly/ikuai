@@ -1,0 +1,137 @@
+* {
+	margin: 0 auto:;
+}
+/* cont */
+.cont {
+	margin-bottom: 30px;
+}
+
+.jc_ban {
+	background: url(../img/jion_in.png) no-repeat;
+	height: 400px;
+	width: 100%;
+}
+
+.ban {
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 140px;
+	color: #fff;
+}
+
+.ban_h {
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+.ban_p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+
+/* const_sq */
+.cont_sq {
+	margin: 80px 0 90px 0;
+	background: url(../img/apply_join.png) no-repeat;
+	height: 320px;
+	width: 100%;
+	text-align: center;
+}
+
+.sq_h {
+	font-size: 31px;
+	color: #2C3D4F;
+	padding: 55px 0 25px 0;
+	text-align: center;
+	font-weight: 600;
+}
+
+.sq_le {
+	margin-left: 12.4%;
+}
+
+.sq_but {
+	margin-bottom: 15px;
+}
+
+.sq_in {
+	background: #fff;
+	border: 1px solid #ececec;
+	padding: 9px 15px;
+	border-radius: 2px;
+	height: auto;
+	box-shadow: none;
+}
+
+.sq_bon {
+
+	color: #fff;
+	border-radius: 1px;
+	padding: 8px 14px;
+	border-radius: 2px;
+	background: #327DF1;
+	box-shadow: none;
+	margin-top: 40px;
+}
+
+/* 移动端 */
+@media (max-width:768px) {
+	.nav_bo {
+		display: none !important;
+	}
+
+	.sq_le {
+		margin-left: 0;
+	}
+
+	.ban {
+		padding-top: 30px;
+	}
+
+	.ban_h {
+		font-size: 28px;
+	}
+
+	.ban_p {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+
+	.jc_ban {
+		background-position: center center;
+		height: 230px;
+		margin-top: 15px;
+	}
+
+	.e_h {
+		font-size: 20px;
+		margin: 50px auto 25px auto;
+		margin-bottom: 15px;
+	}
+
+	.e_p {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+	.sq_h {
+		padding: 30px 0 20px 0;
+		font-size: 20px;
+	}
+
+	.cont_sq {
+		margin: 30px 0 40px 0;
+	}
+
+	.cont_sq input {
+		margin-bottom: 10px;
+	}
+
+	.sq_bon {
+		margin-top: :x;
+		;
+	}
+
+}

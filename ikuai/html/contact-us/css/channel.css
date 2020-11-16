@@ -1,0 +1,116 @@
+/* tact_ban */
+.ban_ban {
+	font-size: 38px;
+	color: #fff;
+	text-align: center;
+	display: table;
+	width: 100%;
+	background: url(../img/regions.png) no-repeat center;
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.ban_h {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: 600;
+}
+
+/* tact_lb */
+.tact-lb {
+	margin-top: 60px;
+}
+
+.lb_a {
+	margin-bottom: 30px;
+}
+
+.lb_h {
+	border-bottom: 1px solid #ddd;
+	font-size: 22px;
+	color: #333;
+	padding-bottom: 8px;
+}
+
+.lb_h>img {
+	vertical-align: middle;
+	margin: 0 10px 3px 0;
+}
+
+.lb_th {
+	color: #327DF1;
+	font-size: 17px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	padding: 25px 0 15px 0;
+}
+
+.lb_tb>span {
+	display: inline-block;
+	width: 18%;
+	text-align: right;
+	white-space: nowrap;
+}
+.lb_a ul{
+	width: 100%;
+}
+.lb_th>span {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.lb_tb {
+clear: both;
+}
+.lb_tb div{
+	float: left;
+	    color: #999999;
+	    font-size: 15px;
+	    padding-right: 5px;
+	    padding-bottom: 2px;
+}
+.tel{
+	    width: 20%;
+	    text-align: right;
+	    white-space: nowrap;
+}
+.lb_tb>a {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+@media (max-width:767px) {
+	.nav_bo {
+		display: none;
+	}
+
+	.ban_ban {
+		font-size: 24px;
+		height: 100%;
+		margin-top: 15px;
+		padding: 15% 0;
+	}
+
+	.tact-lb {
+		margin-top: 20px;
+	}
+
+	.lb_h {
+		font-size: 18px;
+	}
+
+	.lb_a ul {
+		width: 90%;
+		margin-left: 8%;
+	}
+
+	.lb_th {
+		font-size: 15px;
+	}
+	.lb_tb div{
+		font-size: 13px;
+	}
+	.tel{
+		width: 21%	;
+	}
+}
